@@ -1,0 +1,374 @@
+﻿  autowall.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+  BackTrack.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+  BulletBeams.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+  Config.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+  bhop.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+  chams.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+  glow.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+  visuals.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\options.hpp(328): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\máté\desktop\again\cheat\csgosimple\options.hpp(329): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  GrenadePred.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+  input.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+  math.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+  utils.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+  vfunc_hook.cpp
+  Hitmarker.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\hitmarker.cpp(2747): warning C4838: conversion from 'int' to 'const char' requires a narrowing conversion
+c:\users\máté\desktop\again\cheat\csgosimple\hitmarker.cpp(2747): warning C4309: 'initializing': truncation of constant value
+c:\users\máté\desktop\again\cheat\csgosimple\hitmarker.cpp(3661): warning C4309: 'initializing': truncation of constant value
+  hooks.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\shobjidl.h(1865): error C2504: 'Hooks::IStream': base class undefined
+  imgui_impl_dx9.cpp
+  imgui.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\imgui\imgui.cpp(3448): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\máté\desktop\again\cheat\csgosimple\imgui\imgui.cpp(3449): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\máté\desktop\again\cheat\csgosimple\imgui\imgui.cpp(3450): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\máté\desktop\again\cheat\csgosimple\imgui\imgui.cpp(3451): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\máté\desktop\again\cheat\csgosimple\imgui\imgui.cpp(3460): warning C4018: '<': signed/unsigned mismatch
+c:\users\máté\desktop\again\cheat\csgosimple\imgui\imgui.cpp(3484): warning C4018: '<': signed/unsigned mismatch
+  imgui_demo.cpp
+  imgui_draw.cpp
+  ItemDefinitions.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+  Compiling...
+  KitParser.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+  Legit.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\options.hpp(328): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\máté\desktop\again\cheat\csgosimple\options.hpp(329): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\main.cpp(285): error C2664: 'BOOL SetConsoleTitleA(LPCSTR)': cannot convert argument 1 from 'const wchar_t [19]' to 'LPCSTR'
+  c:\users\máté\desktop\again\cheat\csgosimple\main.cpp(285): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+  menu.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\documents\cereal-1.2.2\include\cereal\external\rapidjson\document.h(958): warning C4003: not enough actual parameters for macro 'max'
+c:\users\máté\documents\cereal-1.2.2\include\cereal\external\rapidjson\document.h(964): warning C4003: not enough actual parameters for macro 'min'
+c:\users\máté\documents\cereal-1.2.2\include\cereal\external\rapidjson\document.h(965): warning C4003: not enough actual parameters for macro 'max'
+c:\users\máté\documents\cereal-1.2.2\include\cereal\external\rapidjson\document.h(982): warning C4003: not enough actual parameters for macro 'max'
+c:\users\máté\documents\cereal-1.2.2\include\cereal\external\rapidjson\document.h(983): warning C4003: not enough actual parameters for macro 'max'
+c:\users\máté\desktop\again\cheat\csgosimple\radar.h(99): warning C4804: '>': unsafe use of type 'bool' in operation
+c:\users\máté\desktop\again\cheat\csgosimple\radar.h(93): warning C4101: 'enemy_only': unreferenced local variable
+c:\users\máté\desktop\again\cheat\csgosimple\menu.cpp(54): warning C4018: '<': signed/unsigned mismatch
+c:\users\máté\desktop\again\cheat\csgosimple\menu.cpp(1300): warning C4804: '>': unsafe use of type 'bool' in operation
+c:\users\máté\desktop\again\cheat\csgosimple\menu.cpp(1065): warning C4101: 'pY': unreferenced local variable
+c:\users\máté\desktop\again\cheat\csgosimple\menu.cpp(1065): warning C4101: 'pX': unreferenced local variable
+c:\users\máté\desktop\again\cheat\csgosimple\menu.cpp(1070): warning C4101: 'nameChar': unreferenced local variable
+c:\users\máté\desktop\again\cheat\csgosimple\menu.cpp(1233): warning C4101: 'h': unreferenced local variable
+c:\users\máté\desktop\again\cheat\csgosimple\menu.cpp(1233): warning C4101: 'w': unreferenced local variable
+c:\users\máté\desktop\again\cheat\csgosimple\menu.cpp(1294): warning C4101: 'enemy_only': unreferenced local variable
+  options.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\options.hpp(328): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\máté\desktop\again\cheat\csgosimple\options.hpp(329): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Rage.cpp
+  RageBot.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\ragebot.cpp(512): warning C4101: 'pEntity': unreferenced local variable
+  SkinChanger.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\skinchanger.cpp(95): error C2664: 'HMODULE GetModuleHandleA(LPCSTR)': cannot convert argument 1 from 'const wchar_t [11]' to 'LPCSTR'
+  c:\users\máté\desktop\again\cheat\csgosimple\skinchanger.cpp(95): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\máté\desktop\again\cheat\csgosimple\skinchanger.cpp(99): error C3536: 'set_abs_origin_fn': cannot be used before it is initialized
+c:\users\máté\desktop\again\cheat\csgosimple\skinchanger.cpp(99): error C2064: term does not evaluate to a function taking 2 arguments
+  trigger.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+  csgostructs.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\csgostructs.cpp(320): error C2664: 'HMODULE GetModuleHandleA(LPCSTR)': cannot convert argument 1 from 'const wchar_t [11]' to 'LPCSTR'
+  c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\csgostructs.cpp(320): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\csgostructs.cpp(321): error C3536: 'ResetAnimState': cannot be used before it is initialized
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\csgostructs.cpp(324): error C2064: term does not evaluate to a function taking 1 arguments
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\csgostructs.cpp(332): error C2664: 'HMODULE GetModuleHandleA(LPCSTR)': cannot convert argument 1 from 'const wchar_t [11]' to 'LPCSTR'
+  c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\csgostructs.cpp(332): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\csgostructs.cpp(333): error C3536: 'UpdateAnimState': cannot be used before it is initialized
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\csgostructs.cpp(350): error C2664: 'HMODULE GetModuleHandleA(LPCSTR)': cannot convert argument 1 from 'const wchar_t [11]' to 'LPCSTR'
+  c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\csgostructs.cpp(350): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\csgostructs.cpp(351): error C3536: 'CreateAnimState': cannot be used before it is initialized
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\csgostructs.cpp(354): error C2064: term does not evaluate to a function taking 2 arguments
+  sdk.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\sdk.cpp(108): error C2664: 'HMODULE GetModuleHandleA(LPCSTR)': cannot convert argument 1 from 'const wchar_t [10]' to 'LPCSTR'
+  c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\sdk.cpp(108): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+  Vector2D.cpp
+  Vector4D.cpp
+  VMatrix.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  characterset.cpp
+  checksum_crc.cpp
+  checksum_md5.cpp
+  Color.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+  Convar.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+  UtlBuffer.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Compiling...
+  UtlString.cpp
+  netvars.cpp
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\math\vector.hpp(54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(157): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(165): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(166): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(167): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(174): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(175): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+c:\users\máté\desktop\again\cheat\csgosimple\valve_sdk\misc\color.hpp(176): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data

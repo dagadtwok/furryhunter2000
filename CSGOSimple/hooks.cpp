@@ -56,18 +56,34 @@ namespace Hooks
 	vfunc_hook findmdl_hook;
 	vfunc_hook gameevents_hook;
 
+	typedef void(__thiscall* LockCursor)(void*);
+	LockCursor oLockCursor;
+
+	void __stdcall hkLockCursor()
+	{
+		oLockCursor = Hooks::vguisurf_hook.get_original<LockCursor>(67);
+
+		if (Menu::Get().IsVisible())
+		{
+			g_VGuiSurface->UnlockCursor();
+			return;
+		}
+
+		oLockCursor(g_VGuiSurface);
+	}
+
 	void Initialize()
 	{
-		hlclient_hook.setup(g_CHLClient, "client.dll");
+		hlclient_hook.setup(g_CHLClient, "client_panorama.dll");
 		direct3d_hook.setup(g_D3DDevice9, "shaderapidx9.dll");
 		vguipanel_hook.setup(g_VGuiPanel);
 		vguisurf_hook.setup(g_VGuiSurface);
 		mdlrender_hook.setup(g_MdlRender, "engine.dll");
-		clientmode_hook.setup(g_ClientMode, "client.dll");
+		clientmode_hook.setup(g_ClientMode, "client_panorama.dll");
 		render_view.setup(g_RenderView);
 		findmdl_hook.setup(g_MdlCache);
 		gameevents_hook.setup(g_GameEvents);
-
+		vguisurf_hook.hook_index(67, hkLockCursor);
 		render_view.hook_index(9, hkSceneEnd);
 		direct3d_hook.hook_index(index::EndScene, hkEndScene);
 		direct3d_hook.hook_index(index::Reset, hkReset);
@@ -481,7 +497,7 @@ namespace Hooks
 		static auto oPaintTraverse = vguipanel_hook.get_original<PaintTraverse>(index::PaintTraverse);
 
 		oPaintTraverse(g_VGuiPanel, panel, forceRepaint, allowForce);
-
+		g_InputSystem->EnableInput(!Menu::Get().IsVisible());
 		if (!panelId) {
 			const auto panelName = g_VGuiPanel->GetName(panel);
 			if (!strcmp(panelName, "FocusOverlayPanel")) {
@@ -624,7 +640,7 @@ namespace Hooks
 		// Auto Accept
 		if (strstr(name, "UI/competitive_accept_beep.wav")) {
 			static auto fnAccept =
-				(void(*)())Utils::PatternScan(GetModuleHandleA("client.dll"), "55 8B EC 83 E4 F8 83 EC 08 56 8B 35 ? ? ? ? 57 83 BE");
+				(void(*)())Utils::PatternScan(GetModuleHandleA("client_panorama.dll"), "55 8B EC 83 E4 F8 83 EC 08 56 8B 35 ? ? ? ? 57 83 BE");
 
 			fnAccept();
 

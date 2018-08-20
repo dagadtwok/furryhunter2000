@@ -5,10 +5,9 @@
 #include <map>
 #include <vector>
 
-#include <cereal/archives/json.hpp>
-#include <cereal/types/vector.hpp>
-#include <cereal/types/map.hpp>
-
+#include <archives/json.hpp>
+#include <types/vector.hpp>
+#include <types/map.hpp>
 namespace ItemDefinitions
 {
 	inline bool IsKnife(int i) { return (i >= WEAPON_KNIFE_BAYONET && i < GLOVE_STUDDED_BLOODHOUND) || i == WEAPON_KNIFE_T || i == WEAPON_KNIFE; }

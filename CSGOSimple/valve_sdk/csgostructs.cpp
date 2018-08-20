@@ -31,7 +31,7 @@ bool C_BaseEntity::IsDefuseKit()
 
 CCSWeaponInfo* C_BaseCombatWeapon::GetCSWeaponData()
 {
-	return CallVFunction<CCSWeaponInfo*(__thiscall*)(void*)>(this, 445)(this);
+	return CallVFunction<CCSWeaponInfo*(__thiscall*)(void*)>(this, 444)(this);
 }
 
 bool C_BaseCombatWeapon::HasBullets()
@@ -138,18 +138,18 @@ bool C_BaseCombatWeapon::IsSniper()
 
 bool C_BaseCombatWeapon::IsReloading()
 {
-	static auto inReload = *(uint32_t*)(Utils::PatternScan(GetModuleHandleW(L"client.dll"), "C6 87 ? ? ? ? ? 8B 06 8B CE FF 90") + 2);
+	static auto inReload = *(uint32_t*)(Utils::PatternScan(GetModuleHandleW(L"client_panorama.dll"), "C6 87 ? ? ? ? ? 8B 06 8B CE FF 90") + 2);
 	return *(bool*)((uintptr_t)this + inReload);
 }
 
 float C_BaseCombatWeapon::GetInaccuracy()
 {
-	return CallVFunction<float(__thiscall*)(void*)>(this, 468)(this);
+	return CallVFunction<float(__thiscall*)(void*)>(this, 467)(this);
 }
 
 float C_BaseCombatWeapon::GetSpread()
 {
-	return CallVFunction<float(__thiscall*)(void*)>(this, 437)(this);
+	return CallVFunction<float(__thiscall*)(void*)>(this, 436)(this);
 }
 
 bool C_BaseCombatWeapon::CanFirePostPone()
@@ -164,12 +164,12 @@ bool C_BaseCombatWeapon::CanFirePostPone()
 
 void C_BaseCombatWeapon::UpdateAccuracyPenalty()
 {
-	CallVFunction<void(__thiscall*)(void*)>(this, 469)(this);
+	CallVFunction<void(__thiscall*)(void*)>(this, 468)(this);
 }
 
 CUserCmd*& C_BasePlayer::m_pCurrentCommand()
 {
-	static auto currentCommand = *(uint32_t*)(Utils::PatternScan(GetModuleHandleW(L"client.dll"), "89 BE ? ? ? ? E8 ? ? ? ? 85 FF") + 2);
+	static auto currentCommand = *(uint32_t*)(Utils::PatternScan(GetModuleHandleW(L"client_panorama.dll"), "89 BE ? ? ? ? E8 ? ? ? ? 85 FF") + 2);
 	return *(CUserCmd**)((uintptr_t)this + currentCommand);
 }
 
@@ -210,7 +210,7 @@ bool C_BasePlayer::HasC4()
 {
 	static auto fnHasC4
 		= reinterpret_cast<bool(__thiscall*)(void*)>(
-			Utils::PatternScan(GetModuleHandleW(L"client.dll"), "56 8B F1 85 F6 74 31")
+			Utils::PatternScan(GetModuleHandleW(L"client_panorama.dll"), "56 8B F1 85 F6 74 31")
 			);
 
 	return fnHasC4(this);
@@ -337,7 +337,7 @@ void C_BasePlayer::ResetAnimationState(C_CSGOPlayerAnimState *state)
 		return;
 
 	using ResetAnimState_t = void(__thiscall*)(C_CSGOPlayerAnimState*);
-	static auto ResetAnimState = (ResetAnimState_t)Utils::PatternScan(GetModuleHandle(L"client.dll"), "56 6A 01 68 ? ? ? ? 8B F1");
+	static auto ResetAnimState = (ResetAnimState_t)Utils::PatternScan(GetModuleHandle(L"client_panorama.dll"), "56 6A 01 68 ? ? ? ? 8B F1");
 	if (!ResetAnimState)
 		return;
 
@@ -349,7 +349,7 @@ void C_BasePlayer::UpdateAnimationState(C_CSGOPlayerAnimState *state, QAngle ang
 	if (!state)
 		return;
 
-	static auto UpdateAnimState = Utils::PatternScan(GetModuleHandle(L"client.dll"), "55 8B EC 83 E4 F8 83 EC 18 56 57 8B F9 F3 0F 11 54 24");
+	static auto UpdateAnimState = Utils::PatternScan(GetModuleHandle(L"client_panorama.dll"), "55 8B EC 83 E4 F8 83 EC 18 56 57 8B F9 F3 0F 11 54 24");
 	if (!UpdateAnimState)
 		return;
 
@@ -367,7 +367,7 @@ void C_BasePlayer::UpdateAnimationState(C_CSGOPlayerAnimState *state, QAngle ang
 void C_BasePlayer::CreateAnimationState(C_CSGOPlayerAnimState *state)
 {
 	using CreateAnimState_t = void(__thiscall*)(C_CSGOPlayerAnimState*, C_BasePlayer*);
-	static auto CreateAnimState = (CreateAnimState_t)Utils::PatternScan(GetModuleHandle(L"client.dll"), "55 8B EC 56 8B F1 B9 ? ? ? ? C7 46");
+	static auto CreateAnimState = (CreateAnimState_t)Utils::PatternScan(GetModuleHandle(L"client_panorama.dll"), "55 8B EC 56 8B F1 B9 ? ? ? ? C7 46");
 	if (!CreateAnimState)
 		return;
 

@@ -182,7 +182,7 @@ std::vector<std::pair<int, const char*>> weaponcomboname = {
 
 void InitializePaintKits() {
 	static std::wstring_convert<std::codecvt_utf8_utf16<wchar_t>> converter;
-	const auto sig_address = Utils::FindPattern("client.dll", (PBYTE)"\xE8\x00\x00\x00\x00\xFF\x76\x0C\x8D\x48\x04\xE8", "x????xxxxxxx");
+	const auto sig_address = Utils::FindPattern("client_panorama.dll", (PBYTE)"\xE8\x00\x00\x00\x00\xFF\x76\x0C\x8D\x48\x04\xE8", "x????xxxxxxx");
 	const auto item_system_offset = *reinterpret_cast<std::int32_t*>(sig_address + 1);
 	const auto item_system_fn = reinterpret_cast<CCStrike15ItemSystem* (*)()>(sig_address + 5 + item_system_offset);
 	const auto item_schema = reinterpret_cast<CCStrike15ItemSchema*>(std::uintptr_t(item_system_fn()) + sizeof(void*));

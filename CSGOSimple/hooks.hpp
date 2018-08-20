@@ -11,6 +11,7 @@ namespace Global
 	extern float hitmarkerAlpha;
 	extern CUserCmd *userCMD;
 	extern bool bSendPacket;
+
 }
 
 namespace index
@@ -34,6 +35,8 @@ namespace Hooks
 {
     void Initialize();
     void Shutdown();
+
+	void __stdcall hkLockCursor();
 
     extern vfunc_hook hlclient_hook;
     extern vfunc_hook direct3d_hook;

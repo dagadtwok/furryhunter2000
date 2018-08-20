@@ -10,7 +10,3 @@ Yeah i have 0 knowledge so fuck you.
 * XBoom31 - idk who'ru;
 * massas1337 - idk who'ru;
 * me lol
-
-## Changelog:
-none atm
-soon, cuz lazy to upload

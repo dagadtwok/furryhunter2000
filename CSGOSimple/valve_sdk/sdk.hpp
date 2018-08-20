@@ -103,6 +103,7 @@ extern ILocalize*            g_Localize;
 extern RecvVarProxyFn o_nSequence;
 extern IMemAlloc			*g_pMemAlloc;
 extern IViewRenderBeams		*g_RenderBeams;
+extern IInputSystem*        g_InputSystem;
 
 template<typename... Args>
 void ConMsg(const char* pMsg, Args... args)

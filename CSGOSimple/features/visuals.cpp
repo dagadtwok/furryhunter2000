@@ -503,7 +503,7 @@ static std::string GetTimeString()
 void Visuals::Player::RenderWaterMark()
 {
 
-	const wchar_t* watermark = L"????";
+	const wchar_t* watermark = L"Fixing furryhook, attempt #1";
 
 
 
@@ -624,6 +624,14 @@ void Visuals::Player::RenderHealth()
 
 	g_VGuiSurface->DrawSetColor(Color(red, green, 0, 255));
 	g_VGuiSurface->DrawOutlinedRect(x + 1, y + height + 1, x + w - 1, y + h - 1);
+
+	auto  hp = esp_ctx.pl->m_iHealth();
+	if (g_Options.esp_health_text)
+	{
+		if (hp > 0)
+			DrawT(x + -23, y - 0.5, Color(255, 255, 255, 255), defuse_font, true, "%i HP", hp);
+	}
+
 }
 
 void Visuals::EdgyHealthBar()
@@ -638,7 +646,7 @@ void Visuals::EdgyHealthBar()
 
 	float height = (esp_ctx.bbox.bottom - esp_ctx.bbox.top) * (HealthValue / 100);
 	float height2 = (esp_ctx.bbox.bottom - esp_ctx.bbox.top) * (100 / 100); // used for the styles like healthbar lines
-	float flHeight = height2 / 10.f;
+	float flHeight = height2 / 9.f;
 
 	float off = 3;
 	int x = esp_ctx.bbox.left - off;
@@ -760,7 +768,7 @@ void Visuals::Misc::RenderCrosshair()
 	g_VGuiSurface->DrawLine(cx - 25, cy, cx + 25, cy);
 	g_VGuiSurface->DrawLine(cx, cy - 25, cx, cy + 25);
 }
-
+/*
 void Visuals::AsusWalls() {
 	if (g_EngineClient->IsConnected())
 	{
@@ -781,7 +789,7 @@ void Visuals::AsusWalls() {
 		}
 
 	}
-}
+}*/
 
 void Visuals::SkyColor()
 {  

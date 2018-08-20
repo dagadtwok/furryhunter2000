@@ -4,8 +4,8 @@
 
 #include "KitParser.h"
 
-#include <cereal/types/unordered_map.hpp>
-#include <cereal/types/array.hpp>
+#include <types/unordered_map.hpp>
+#include <types/array.hpp>
 
 struct StickerCfg_t
 {

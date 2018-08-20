@@ -36,7 +36,7 @@ ILocalize*            g_Localize = nullptr;
 RecvVarProxyFn		  o_nSequence = nullptr;
 IMemAlloc*            g_pMemAlloc = nullptr;
 IViewRenderBeams*	  g_RenderBeams = nullptr;
-
+IInputSystem*         g_InputSystem = nullptr;
 
 namespace Offsets
 {
@@ -72,9 +72,10 @@ namespace Interfaces
 	void Initialize()
 	{
 
-
+		auto pfnFactory = get_module_factory(GetModuleHandleW(L"inputsystem.dll"));
+		g_InputSystem = get_interface<IInputSystem>(pfnFactory, "InputSystemVersion001");
 		auto engineFactory = get_module_factory(GetModuleHandleW(L"engine.dll"));
-		auto clientFactory = get_module_factory(GetModuleHandleW(L"client.dll"));
+		auto clientFactory = get_module_factory(GetModuleHandleW(L"client_panorama.dll"));
 		auto valveStdFactory = get_module_factory(GetModuleHandleW(L"vstdlib.dll"));
 		auto vguiFactory = get_module_factory(GetModuleHandleW(L"vguimatsurface.dll"));
 		auto vgui2Factory = get_module_factory(GetModuleHandleW(L"vgui2.dll"));
@@ -108,7 +109,7 @@ namespace Interfaces
 
 		g_pMemAlloc = *(IMemAlloc**)(GetProcAddress(GetModuleHandle(L"tier0.dll"), "g_pMemAlloc"));
 
-		auto client = GetModuleHandleW(L"client.dll");
+		auto client = GetModuleHandleW(L"client_panorama.dll");
 		auto engine = GetModuleHandleW(L"engine.dll");
 		auto dx9api = GetModuleHandleW(L"shaderapidx9.dll");
 

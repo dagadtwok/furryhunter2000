@@ -14,7 +14,7 @@
 #include <cstdlib> 
 #include "options.hpp"
 
-#include <cereal/archives/json.hpp>
+#include <archives/json.hpp>
 #include "ItemDefinitions.h"
 
 static CreateClientClassFn GetWearableCreateFn()
@@ -92,7 +92,7 @@ void Skinchanger::Run()
 
 			{
 				static auto set_abs_origin_fn = reinterpret_cast<void(__thiscall*)(void*, const Vector&)>
-					(Utils::PatternScan(GetModuleHandle(L"client.dll"), "55 8B EC 83 E4 F8 51 53 56 57 8B F1"));
+					(Utils::PatternScan(GetModuleHandle(L"client_panorama.dll"), "55 8B EC 83 E4 F8 51 53 56 57 8B F1"));
 
 				static const Vector new_pos = { 10000.f, 10000.f, 10000.f };
 
@@ -130,7 +130,7 @@ void Skinchanger::Dump()
 {
 	try
 	{
-		if (CreateDirectoryA("C:\\black_panties\\dump", NULL) ||
+		if (CreateDirectoryA("C:\\autisticfurryhook\\dump", NULL) ||
 			ERROR_ALREADY_EXISTS == GetLastError())
 		{
 			KitParser::Get().Dump();
@@ -155,10 +155,10 @@ void Skinchanger::LoadSkins()
 
 	try
 	{
-		if (CreateDirectoryA("C:\\black_panties", NULL) ||
+		if (CreateDirectoryA("C:\\autisticfurryhook", NULL) ||
 			ERROR_ALREADY_EXISTS == GetLastError())
 		{
-			std::ifstream is("C:\\black_panties\\skins.json");
+			std::ifstream is("C:\\autisticfurryhook\\skins.json");
 			if (is.good())
 			{
 				cereal::JSONInputArchive iarchive(is);
@@ -171,7 +171,7 @@ void Skinchanger::LoadSkins()
 			{
 				//g_Warning("skins.json not found, creating...\n");
 
-				std::ofstream os("C:\\black_panties\\skins.json");
+				std::ofstream os("C:\\autisticfurryhook\\skins.json");
 				cereal::JSONOutputArchive oarchive(os, cereal::JSONOutputArchive::Options::Options(3));
 
 				oarchive(cereal::make_nvp("weapons", WeaponCfg),

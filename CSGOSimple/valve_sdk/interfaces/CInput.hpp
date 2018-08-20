@@ -83,7 +83,16 @@ public:
 
 
 };
-
+class IInputSystem
+{
+public:
+	void EnableInput(bool bEnable)
+	{
+		using vfunc = void(__thiscall*)(IInputSystem*, bool);
+		CallVFunction<vfunc>(this, 11)(this, bEnable);
+	}
+	// Thats everything we need, you can find the whole interface easly
+};
 CUserCmd* CInput::GetUserCmd(int sequence_number)
 {
 	return &m_pCommands[sequence_number % MULTIPLAYER_BACKUP];
