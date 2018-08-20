@@ -11,7 +11,6 @@
 #include "features\glow.hpp"
 #include "Hitmarker.h"
 #include "menu.hpp"
-#include "SkinChanger.h"
 #include "BulletBeams.h"
 
 
@@ -285,7 +284,6 @@ DWORD WINAPI OnDllAttach(LPVOID base)
 		Hooks::Initialize();
 
 		g_ClientState->ForceFullUpdate();
-		Skinchanger::Get().Dump();
 		initialize();
 
 	
@@ -296,12 +294,6 @@ DWORD WINAPI OnDllAttach(LPVOID base)
 		// - Note:  The function that is called when the hotkey is pressed
 		//          is called from the WndProc thread, not this thread.
 		// 
-
-		// Panic button
-		InputSys::Get().RegisterHotkey(VK_DELETE, []() {
-			g_Unload = true;
-		});
-
 		// Menu Toggle
 		InputSys::Get().RegisterHotkey(VK_INSERT, []() {
 			Menu::Get().Toggle();

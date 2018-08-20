@@ -43,9 +43,6 @@
     <Filter Include="Configs">
       <UniqueIdentifier>{7c734e51-37d8-4f0f-a4cd-1f424db613e9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="SkinChanger">
-      <UniqueIdentifier>{62706c12-dfd2-4ae6-815e-8898c934e517}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Helpers\math.cpp">
@@ -149,15 +146,6 @@
     </ClCompile>
     <ClCompile Include="autowall.cpp">
       <Filter>Rage</Filter>
-    </ClCompile>
-    <ClCompile Include="SkinChanger.cpp">
-      <Filter>SkinChanger</Filter>
-    </ClCompile>
-    <ClCompile Include="KitParser.cpp">
-      <Filter>SkinChanger</Filter>
-    </ClCompile>
-    <ClCompile Include="ItemDefinitions.cpp">
-      <Filter>SkinChanger</Filter>
     </ClCompile>
     <ClCompile Include="GrenadePred.cpp">
       <Filter>Source Files\features</Filter>
@@ -448,18 +436,6 @@
     </ClInclude>
     <ClInclude Include="Recv.hpp">
       <Filter>Header Files\SDK</Filter>
-    </ClInclude>
-    <ClInclude Include="SkinChanger.h">
-      <Filter>SkinChanger</Filter>
-    </ClInclude>
-    <ClInclude Include="KitParser.h">
-      <Filter>SkinChanger</Filter>
-    </ClInclude>
-    <ClInclude Include="ItemDefinitions.h">
-      <Filter>SkinChanger</Filter>
-    </ClInclude>
-    <ClInclude Include="skins.h">
-      <Filter>SkinChanger</Filter>
     </ClInclude>
     <ClInclude Include="GrenadePred.h">
       <Filter>Header Files\features</Filter>

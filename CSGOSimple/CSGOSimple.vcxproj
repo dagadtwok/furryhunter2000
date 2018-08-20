@@ -117,15 +117,12 @@
     <ClCompile Include="imgui\imgui.cpp" />
     <ClCompile Include="imgui\imgui_demo.cpp" />
     <ClCompile Include="imgui\imgui_draw.cpp" />
-    <ClCompile Include="ItemDefinitions.cpp" />
-    <ClCompile Include="KitParser.cpp" />
     <ClCompile Include="Legit.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="options.cpp" />
     <ClCompile Include="RageBot.cpp" />
     <ClCompile Include="resolver.cpp" />
-    <ClCompile Include="SkinChanger.cpp" />
     <ClCompile Include="Trigger.cpp" />
     <ClCompile Include="valve_sdk\csgostructs.cpp" />
     <ClCompile Include="valve_sdk\sdk.cpp" />
@@ -168,9 +165,7 @@
     <ClInclude Include="imgui\stb_rect_pack.h" />
     <ClInclude Include="imgui\stb_textedit.h" />
     <ClInclude Include="imgui\stb_truetype.h" />
-    <ClInclude Include="ItemDefinitions.h" />
     <ClInclude Include="IViewRenderBeams.hpp" />
-    <ClInclude Include="KitParser.h" />
     <ClInclude Include="Legit.hpp" />
     <ClInclude Include="MainInclude.hpp" />
     <ClInclude Include="memalloc.h" />
@@ -183,8 +178,6 @@
     <ClInclude Include="Recv.hpp" />
     <ClInclude Include="resolver.h" />
     <ClInclude Include="singleton.hpp" />
-    <ClInclude Include="SkinChanger.h" />
-    <ClInclude Include="skins.h" />
     <ClInclude Include="Strafer.h" />
     <ClInclude Include="Trigger.h" />
     <ClInclude Include="valve_sdk\csgostructs.hpp" />

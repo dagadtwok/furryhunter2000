@@ -184,7 +184,7 @@ const char* const KeyNames[] = {
 	"VK_RMENU"
 };
 
-void InitializePaintKits();
+
 void initialize();
 
 struct paint_kit {

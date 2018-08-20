@@ -768,28 +768,6 @@ void Visuals::Misc::RenderCrosshair()
 	g_VGuiSurface->DrawLine(cx - 25, cy, cx + 25, cy);
 	g_VGuiSurface->DrawLine(cx, cy - 25, cx, cy + 25);
 }
-/*
-void Visuals::AsusWalls() {
-	if (g_EngineClient->IsConnected())
-	{
-
-		static auto staticdrop = g_CVar->FindVar("r_DrawSpecificStaticProp");
-		staticdrop->SetValue(0);
-
-		for (auto i = g_MatSystem->FirstMaterial(); i != g_MatSystem->InvalidMaterial(); i = g_MatSystem->NextMaterial(i))
-		{
-			IMaterial *pMaterial = g_MatSystem->GetMaterial(i);
-
-			if (!pMaterial)
-				continue;
-			if (strstr(pMaterial->GetMaterialName(), "crate") || strstr(pMaterial->GetMaterialName(), "box") || strstr(pMaterial->GetMaterialName(), "door")) {
-				pMaterial->AlphaModulate(0.9f);
-				pMaterial->SetMaterialVarFlag(MATERIAL_VAR_MODEL, true);
-			}
-		}
-
-	}
-}*/
 
 void Visuals::SkyColor()
 {  

@@ -6,7 +6,6 @@
 #include "features/visuals.hpp"
 #include "features/glow.hpp"
 #include "RageBot.hpp"
-#include "SkinChanger.h"
 #include "BulletBeams.h"
 #include "Config.h"
 #include "Trigger.h"
@@ -784,8 +783,6 @@ namespace Hooks
 		case FRAME_NET_UPDATE_START:
 			break;
 		case FRAME_NET_UPDATE_POSTDATAUPDATE_START:
-			ChangeSkins(me);
-			//Skinchanger::Get().Run();
 			break;
 		case FRAME_NET_UPDATE_POSTDATAUPDATE_END:
 			break;

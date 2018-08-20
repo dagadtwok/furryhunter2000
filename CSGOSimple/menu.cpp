@@ -23,7 +23,6 @@
 #include "Radar.h"
 #include "XorStr.h"
 #include <vector>
-#include "SkinChanger.h"
 #include "config.h"
 #include "functions.hpp"
 
@@ -48,7 +47,7 @@ void initialize()
 
 	if (!once)
 	{
-		InitializePaintKits();
+
 
 		for (int i = 0; i < k_skins.size(); i++) {
 			skins_cc.push_back(k_skins[i].name);
@@ -180,39 +179,6 @@ std::vector<std::pair<int, const char*>> weaponcomboname = {
 { 10000, "Knife" }
 };
 
-void InitializePaintKits() {
-	static std::wstring_convert<std::codecvt_utf8_utf16<wchar_t>> converter;
-	const auto sig_address = Utils::FindPattern("client_panorama.dll", (PBYTE)"\xE8\x00\x00\x00\x00\xFF\x76\x0C\x8D\x48\x04\xE8", "x????xxxxxxx");
-	const auto item_system_offset = *reinterpret_cast<std::int32_t*>(sig_address + 1);
-	const auto item_system_fn = reinterpret_cast<CCStrike15ItemSystem* (*)()>(sig_address + 5 + item_system_offset);
-	const auto item_schema = reinterpret_cast<CCStrike15ItemSchema*>(std::uintptr_t(item_system_fn()) + sizeof(void*));
-
-	const auto get_paint_kit_definition_offset = *reinterpret_cast<std::int32_t*>(sig_address + 11 + 1);
-	const auto get_paint_kit_definition_fn = reinterpret_cast<CPaintKit*(__thiscall*)(CCStrike15ItemSchema*, int)>(sig_address + 11 + 5 + get_paint_kit_definition_offset);
-	const auto start_element_offset = *reinterpret_cast<std::intptr_t*>(std::uintptr_t(get_paint_kit_definition_fn) + 8 + 2);
-	const auto head_offset = start_element_offset - 12;
-	const auto map_head = reinterpret_cast<Head_t<int, CPaintKit*>*>(std::uintptr_t(item_schema) + head_offset);
-
-	for (auto i = 0; i <= map_head->last_element; ++i) {
-		const auto paint_kit = map_head->memory[i].value;
-
-		if (paint_kit->id == 9001)
-			continue;
-
-		const auto wide_name = g_Localize->Find(paint_kit->item_name.buffer);
-		const auto name = converter.to_bytes(wide_name);
-
-		if (paint_kit->id < 10000)
-			k_skins.push_back({ paint_kit->id, name });
-	}
-
-	//std::sort(k_skins.begin(), k_skins.end());
-	//k_skins.insert(k_skins.begin(), { 0, "None" });
-}
-
-
-
-
 template<size_t N>
 void render_tabs(char* (&names)[N], int& activetab, float w, float h, bool sameline)
 {
@@ -238,41 +204,9 @@ void RenderSkinsTab()
 
 	ImGui::BeginChild("##skinstab", ImVec2(-1, 400), true, 0);
 	{
-		DrawSpecialText("Warning this skinchanger is still in BETA so things might not working properly.", "", false, false);
-
-		ImGui::Columns(2, NULL, false);
-		{
-			ImGui::BeginChild("##Skins_part_1", ImVec2(0, 0), true);
-			{
-				ImGui::Spacing();
-				ImGui::PushItemWidth(-1);
-				ImGui::ListBox("##paintkit1", &selected_Weapon, weaponNamesForCombobox, ARRAYSIZE(weaponNamesForCombobox), 8);
-				ImGui::PopItemWidth();
-			}
-			ImGui::EndChild();
-		}
-
-		ImGui::NextColumn();
-		{
-			ImGui::BeginChild("##Skins_part_2", ImVec2(0, 0), true);
-			{
-				ImGui::Spacing();
-				//ImGui::Combo("##paintkit12", &g_Options.skins[weaponcomboname.at(selected_Weapon).first].weapon_skin_id, ImGui::vector_getter, static_cast<void*>(&skins_cc), skins_cc.size());
-				ImGui::Combo("Skin", &g_Options.skins[weaponcomboname[selected_Weapon].first].weapon_skin_id, skins_cc);
-				ImGui::InputInt("##seed", &g_Options.skins[weaponcomboname.at(selected_Weapon).first].weapon_seed, 0, 1000000000);
-				ImGui::SliderFloat("##wear", &g_Options.skins[weaponcomboname.at(selected_Weapon).first].weapon_wear, 0.0f, 1.0f, "%0.6f");
-
-				ImGui::Combo("Knifes", &g_Options.knifemodel, knife_models, ARRAYSIZE(knife_models));
-				//ImGui::Combo("Knife Models", &g_Options.Mdl.Knife, knifemdl, ARRAYSIZE(knifemdl));
-				
-			}
-			ImGui::EndChild();
-		}
+		DrawSpecialText("Who needs skinchanger nowdays? huh... Grow up kiddo.", "", false, false);
 	}
 	ImGui::EndChild();
-
-	ImGui::PushItemWidth(-1);
-	if (ImGui::Button("apply", ImVec2(-1, 40))) Skinchanger::Get().LoadSkins();
 
 }
 
@@ -319,7 +253,6 @@ void RenderMiscTab()
 				ImGui::Checkbox("Enable Postprocess", &g_Options.Epost_process);
 				ImGui::Checkbox("No hands", &g_Options.misc_no_hands);
 				ImGui::SliderInt("ViewModel FOV", &g_Options.viewmodel_fov, 68, 150);
-				ImGui::Checkbox("Show Demo Window  ", &g_Options.show_demo_window);
 				ImGui::Checkbox("Lefthand", &g_Options.lefthand);
 
 
