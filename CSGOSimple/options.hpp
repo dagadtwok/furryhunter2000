@@ -9,7 +9,6 @@
 #include <sys/stat.h>
 #include <stdlib.h>
 #include <set>
-#include "skins.h"
 
 #define OPTION(type, var, val) type var = val
 
@@ -72,8 +71,6 @@ class Config
 public:
 
 	float DLight_color[3] = { 1.00f, 0.00f, 0.23f };
-
-	SkinInfo_t skins[5035];
 
 	bool Enable_AA = false;
 	int Hitsound = 0;

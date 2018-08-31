@@ -586,10 +586,6 @@ namespace Hooks
 									Visuals::EdgyHealthBar();
 									break;
 								}
-				
-							
-
-
 							}
 						}
 						
@@ -677,35 +673,6 @@ namespace Hooks
 	}
 
 	bool Die = false;
-
-	void ChangeSkins(C_BasePlayer* local) {
-		if (!local || Die)
-			return;
-
-
-		auto weapons = local->m_hMyWeapons();
-		for (auto i = 0; weapons[i]; i++) {
-			C_BaseAttributableItem* weapon = (C_BaseAttributableItem*)g_EntityList->GetClientEntityFromHandle(weapons[i]);
-			if (!weapon)
-				continue;
-
-			int definition_index = weapon->m_Item().m_iItemDefinitionIndex();
-			if (definition_index == 0)
-				continue;
-
-
-			weapon->m_nFallbackPaintKit() = k_skins[g_Options.skins[definition_index].weapon_skin_id].id;
-			//	weapon->m_nFallbackPaintKit() = g_Options.skins[definition_index].weapon_skin_id;
-			weapon->m_nFallbackSeed() = g_Options.skins[definition_index].weapon_seed;
-			weapon->m_nFallbackStatTrak() = -1;
-			weapon->m_flFallbackWear() = g_Options.skins[definition_index].weapon_wear;
-
-			weapon->m_Item().m_iItemIDHigh() = -1;
-			weapon->m_Item().m_iAccountID() = local->GetPlayerInfo().xuid_low;
-
-		}
-
-	}
 
 	inline bool ApplyCustomModel(C_BaseAttributableItem* pWeapon, const char* vMdl)
 	{
@@ -801,121 +768,6 @@ namespace Hooks
 
 	if (g_EngineClient->IsInGame() && g_EngineClient->IsConnected() && stage == FRAME_NET_UPDATE_POSTDATAUPDATE_START)
 	{
-
-	auto hWeapons = pLocal->m_hMyWeapons();
-	// skin changer
-	if (hWeapons)
-	{
-		static char* KnifeCT = "models/weapons/v_knife_ct.mdl";
-		static char* KnifeT = "models/weapons/v_knife_t.mdl";
-		static char* Bayonet = "models/weapons/v_knife_bayonet.mdl";
-		static char* Butterfly = "models/weapons/v_knife_butterfly.mdl";
-		static char* Flip = "models/weapons/v_knife_flip.mdl";
-		static char* Gut = "models/weapons/v_knife_gut.mdl";
-		static char* Karambit = "models/weapons/v_knife_karam.mdl";
-		static char* M9Bayonet = "models/weapons/v_knife_m9_bay.mdl";
-		static char* Huntsman = "models/weapons/v_knife_tactical.mdl";
-		static char* Falchion = "models/weapons/v_knife_falchion_advanced.mdl";
-		static char* Dagger = "models/weapons/v_knife_push.mdl";
-		static char* Bowie = "models/weapons/v_knife_survival_bowie.mdl";
-
-		// go through all weapons
-		for (int i = 0; hWeapons[i]; i++)
-		{
-			// Get the weapon entity from the handle.
-			auto pWeapon = (C_BaseAttributableItem*)g_EntityList->GetClientEntityFromHandle(hWeapons[i]);
-			int pWeaponType = ((C_BaseCombatWeapon*)g_EntityList->GetClientEntityFromHandle(hWeapons[i]))->GetCSWeaponData()->iWeaponType;
-
-			if (!pWeapon)
-				continue;
-
-			// Knife changer if holding a knife
-			if (pWeaponType == WEAPONTYPE_KNIFE)
-			{
-				// model indexes
-				switch (g_Options.knifemodel)
-				{
-				case KNIFE_DEFAULT:
-					if (pLocal->m_iTeamNum() == 0) pWeapon->m_nModelIndex() = g_MdlInfo->GetModelIndex(KnifeT);
-					if (pLocal->m_iTeamNum() == 1) pWeapon->m_nModelIndex() = g_MdlInfo->GetModelIndex(KnifeCT);
-					break;
-				case KNIFE_BAYONET:
-					pWeapon->m_nModelIndex() = g_MdlInfo->GetModelIndex(Bayonet);
-					break;
-				case KNIFE_FLIP:
-					pWeapon->m_nModelIndex() = g_MdlInfo->GetModelIndex(Flip);
-					break;
-				case KNIFE_GUT:
-					pWeapon->m_nModelIndex() = g_MdlInfo->GetModelIndex(Gut);
-					break;
-				case KNIFE_KARAMBIT:
-					pWeapon->m_nModelIndex() = g_MdlInfo->GetModelIndex(Karambit);
-					break;
-				case KNIFE_M9BAYONET:
-					pWeapon->m_nModelIndex() = g_MdlInfo->GetModelIndex(M9Bayonet);
-					break;
-				case KNIFE_HUNTSMAN:
-					pWeapon->m_nModelIndex() = g_MdlInfo->GetModelIndex(Huntsman);
-					break;
-				case KNIFE_FALCHION:
-					pWeapon->m_nModelIndex() = g_MdlInfo->GetModelIndex(Falchion);
-					break;
-				case KNIFE_BOWIE:
-					pWeapon->m_nModelIndex() = g_MdlInfo->GetModelIndex(Bowie);
-					break;
-				case KNIFE_BUTTERFLY:
-					pWeapon->m_nModelIndex() = g_MdlInfo->GetModelIndex(Butterfly);
-					break;
-				case KNIFE_PUSHDAGGER:
-					pWeapon->m_nModelIndex() = g_MdlInfo->GetModelIndex(Dagger);
-					break;
-				}
-
-				// changine knife model
-				switch (g_Options.knifemodel)
-				{
-				case KNIFE_DEFAULT:
-					if (pLocal->m_iTeamNum() == 0) ApplyCustomModel(pWeapon, KnifeT);
-					if (pLocal->m_iTeamNum() == 1) ApplyCustomModel(pWeapon, KnifeCT);
-					break;
-				case KNIFE_BAYONET:
-					ApplyCustomModel(pWeapon, Bayonet);
-					break;
-				case KNIFE_FLIP:
-					ApplyCustomModel(pWeapon, Flip);
-					break;
-				case KNIFE_GUT:
-					ApplyCustomModel(pWeapon, Gut);
-					break;
-				case KNIFE_KARAMBIT:
-					ApplyCustomModel(pWeapon, Karambit);
-					break;
-				case KNIFE_M9BAYONET:
-					ApplyCustomModel(pWeapon, M9Bayonet);
-					break;
-				case KNIFE_HUNTSMAN:
-					ApplyCustomModel(pWeapon, Huntsman);
-					break;
-				case KNIFE_FALCHION:
-					ApplyCustomModel(pWeapon, Falchion);
-					break;
-				case KNIFE_BOWIE:
-					ApplyCustomModel(pWeapon, Bowie);
-					break;
-				case KNIFE_BUTTERFLY:
-					ApplyCustomModel(pWeapon, Butterfly);
-					break;
-				case KNIFE_PUSHDAGGER:
-					ApplyCustomModel(pWeapon, Dagger);
-					break;
-				}
-
-			}
-		}
-	}
-
-
-
 	}
 	}
 

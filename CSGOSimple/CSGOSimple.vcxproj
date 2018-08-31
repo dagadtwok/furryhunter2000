@@ -54,9 +54,9 @@
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)build\$(ProjectName)\$(Configuration)\</IntDir>
-    <IncludePath>C:\Users\Damy\source\repos\foxyy_private-master\CSGOSimple\nlohmann;C:\Users\Damy\source\repos\foxyy_private-master\CSGOSimple\cereal;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\um;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Users\Máté\Documents\cereal-1.2.2\include;C:\Users\Máté\Documents\json-develop\include\nlohmann;C:\Users\Máté\Documents\json-develop\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\um;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Users\Damy\Documents\GitHub\furryhunter2000\CSGOSimple\nlohmann;C:\Users\Damy\Documents\GitHub\furryhunter2000\CSGOSimple\cereal;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
     <TargetName>csgosimple</TargetName>
-    <LibraryPath>C:\Users\Damy\source\repos\foxyy_private-master\CSGOSimple\nlohmann;C:\Users\Damy\source\repos\foxyy_private-master\CSGOSimple\cereal;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\Users\Damy\Documents\GitHub\furryhunter2000\CSGOSimple\nlohmann;C:\Users\Damy\Documents\GitHub\furryhunter2000\CSGOSimple\cereal;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

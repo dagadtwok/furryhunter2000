@@ -1,7 +1,8 @@
 ﻿#include "Menu.hpp"
 #include <Windows.h>
 #include <chrono>
-
+#include <windows.h>
+#include <Lmcons.h>
 #include "valve_sdk/csgostructs.hpp"
 #include "helpers/input.hpp"
 #include "options.hpp"
@@ -10,7 +11,7 @@
 #include <algorithm>
 #include <mftransform.h>
 #include <cctype>
-
+#include <iostream>
 #include "imgui/imgui_internal.h"
 #include "../CSGOSimple/imgui/directx9/imgui_impl_dx9.h"
 #include "imgui/imgui.h"
@@ -25,7 +26,7 @@
 #include <vector>
 #include "config.h"
 #include "functions.hpp"
-
+#include <string.h>
 #include <functional>
 #include <experimental/filesystem>
 
@@ -36,24 +37,10 @@
 
 #include <locale>
 
-std::vector<paint_kit> k_skins;
-std::vector<std::string> skins_cc;
-
 static ConVar* cl_mouseenable = nullptr;
 
 void initialize()
 {
-	static bool once = false;
-
-	if (!once)
-	{
-
-
-		for (int i = 0; i < k_skins.size(); i++) {
-			skins_cc.push_back(k_skins[i].name);
-		}
-		once = true;
-	}
 }
 
 void DrawSpecialText(std::string text, std::string textBefore, bool sameLine = false, bool defaultColor = false)
@@ -227,7 +214,7 @@ void RenderMiscTab()
 			{
 				ImGui::Columns(2, NULL, false);
 				{
-					DrawSpecialText("Main Misc Features", (""), false, false);
+					DrawSpecialText("Misc", (""), false, false);
 
 					ImGui::Checkbox("Bunny hop##misc ", &g_Options.misc_bhop);
 					//ImGui::Checkbox("Recoil Crosshair##misc ", &g_Options.Recoil_crosshair);
@@ -239,8 +226,7 @@ void RenderMiscTab()
 					ImGui::Spacing();
 					ImGui::Spacing();
 
-					ImGui::Checkbox("HitMarker##misc ", &g_Options.misc_hitmarker);
-					ImGui::Combo("HitSound##misc ", &g_Options.Hitsound, Hitsounds, ARRAYSIZE(Hitsounds));
+
 				
 
 				}
@@ -275,18 +261,17 @@ void RenderMiscTab()
 			ImGui::Spacing();
 			ImGui::BeginChild("##chat", ImVec2(0, 150), true);
 			{
-				DrawSpecialText("Chat Things", (""), false, false);
-			
-				//ImGui::Checkbox("Animated Clantag", &g_Options.animated_clantag);
-
 				static char textbuff[128];
+				DrawSpecialText("Custom name", (""), false, false);
 				ImGui::InputText("##SetName", textbuff, 20);
 				if (ImGui::Button("Set name"))
 					Utils::SetName(textbuff);
 				ImGui::SameLine();
-				if (ImGui::Button("No name"))
-					Utils::SetName("\n\xAD\xAD\xAD­­­");
+				if (ImGui::Button("Anti-Report"))
+					Utils::SetName("\n");
+					Utils::SetName("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
 				static char clanbuff[128];
+				DrawSpecialText("Custom clantag", (""), false, false);
 				ImGui::InputText("##SetClan", clanbuff, 20);
 				if (ImGui::Button("Set Clantag"))
 					Utils::SetClantag(clanbuff);
@@ -458,16 +443,16 @@ void RenderLegitBotTab()
 	bool placeholder_true = true;
 
 	const char* weapon_tabs[] = {
-		u8"\uE007",
-		u8"\uE001",
-		u8"\uE009"
+		u8"Rifles",
+		u8"Pistols",
+		u8"Scoped"
 	};
 
 	ImGui::SameLine();
 	ImGui::BeginChild("Main Tab", ImVec2(0, 0), true);
 	{
 		ImGui::Separator();
-		ImGui::Checkbox("Master Switch  ", &g_Options.enable_legitbot); ImGui::SameLine(); ImGui::Checkbox("BackTrack", &g_Options.misc_backtrack);
+		ImGui::Checkbox("Master Switch  ", &g_Options.enable_legitbot); ImGui::SameLine(); ImGui::Checkbox("BackTrack ", &g_Options.misc_backtrack); ImGui::SameLine(); ImGui::Hotkey("Key##0", &g_Options.aimkey, ImVec2(0, 0));
 
 		ImGui::PushFont(bestee);
 		static int subtab1 = 0;
@@ -514,7 +499,6 @@ void RenderLegitBotTab()
 				{
 					DrawSpecialText("LegitBot", "", false, false);
 					ImGui::Checkbox("Enable Aim", &g_Options.aim_LegitBotRifles);
-					ImGui::Hotkey("Key##0", &g_Options.aimkey, ImVec2(0, 0));
 					ImGui::Combo("Hitbox", &g_Options.hitbox_rifles, Hitboxx, ARRAYSIZE(Hitboxx));
 					ImGui::SliderFloat("Smooth##0", &g_Options.legit_smooth_rifles, 1.00f, 100.00f, "%.2f");
 					ImGui::SliderFloat("FOV##0", &g_Options.legit_fov_rifles, 0.00f, 30.00f, "%.2f");
@@ -724,7 +708,7 @@ void RenderVisualsTab()
 {
 	static const char* esp_tabs[] = {
 	"ESP",
-	"ESP 2"
+	"Other"
 	};
 	static int page = 0;
 	//---------------------------------
@@ -790,6 +774,9 @@ void RenderVisualsTab()
 						ImGui::Checkbox("Snaplines", &g_Options.esp_player_snaplines);
 						ImGui::Checkbox("Bullet Trace     ", &g_Options.misc_bullettracers); ImGui::SameLine(); ImGui::ColorEdit4(" ##bullettrace", g_Options.misc_bullettracers_color, ImGuiColorEditFlags_NoInputs | ImGuiColorEditFlags_NoSidePreview | ImGuiColorEditFlags_AlphaBar);
 						ImGui::Checkbox("Bullet Beams     ", &g_Options.esp_bullet_beams); ImGui::SameLine(); ImGuiEx::ColorEdit4(" ##esp_bullet_beams", &g_Options.color_esp_bullet_beams, ImGuiColorEditFlags_NoInputs | ImGuiColorEditFlags_NoSidePreview | ImGuiColorEditFlags_AlphaBar);
+						ImGui::Checkbox("HitMarker##misc ", &g_Options.misc_hitmarker);
+						ImGui::Combo("HitSound##misc ", &g_Options.Hitsound, Hitsounds, ARRAYSIZE(Hitsounds));
+
 					}
 					ImGui::NextColumn();
 					{
@@ -854,12 +841,10 @@ void RenderVisualsTab()
 			{
 				DrawSpecialText("World Things", (""), true, false);
 				ImGui::Spacing();
-				ImGui::Checkbox("Gray World", &g_Options.gray_world);
-				ImGui::Checkbox("Minekraft Mode", &g_Options.minecraft_mode);
+				ImGui::Checkbox("Gray Textures", &g_Options.gray_world);
+				ImGui::Checkbox("Lowres Textures", &g_Options.minecraft_mode);
 				ImGui::Checkbox("MLG Mode", &g_Options.mlg_mode);
 			//	
-				ImGui::Checkbox("NightMode   ", &g_Options.nightmode); ImGui::SameLine(); ImGui::ColorEdit4("##xddd", g_Options.sky_color, ImGuiColorEditFlags_NoInputs | ImGuiColorEditFlags_NoSidePreview | ImGuiColorEditFlags_NoAlpha);
-				ImGui::SliderFloat("Intesity", &g_Options.nightmode_intensity, 0.05, 0.45);
 				ImGui::Checkbox("ThirdPerson", &g_Options.thirdperson_enabled); if (ImGui::IsItemHovered()) ImGui::SetTooltip("Use the up and down arrows");
 			}
 			ImGui::NextColumn();
@@ -997,7 +982,7 @@ void Menu::Initialize()
 void Menu::Shutdown()
 {
 	ImGui_ImplDX9_Shutdown();
-	cl_mouseenable->SetValue(true);
+	cl_mouseenable->SetValue(false);
 }
 
 void Menu::OnDeviceLost()
@@ -1092,15 +1077,14 @@ void Menu::Render()
 	int y, h;
 	g_EngineClient->GetScreenSize(y, h);
 
-
 	char nameChar[64];
-
-
-
+	static int subtab1;
+	static int page = 0;
+	static int pina = 0;
 	ImGui::SetNextWindowSize(ImVec2(890, 540));
 	if (_visible)
 	{
-		if (ImGui::Begin(u8"cool cheat name", &_visible, ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoScrollbar)) {
+		if (ImGui::Begin(u8"lol", &_visible, ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoScrollbar)) {
 
 
 			static const char* sidebar_tabs[] = {
@@ -1127,7 +1111,6 @@ void Menu::Render()
 
 
 			g_EngineClient->GetScreenSize(y, size);
-			RainbowMeme(curPos.x - 10, curPos.y + 32, ImGui::GetWindowSize().x + size, curPos.y + 34, flSpeed);
 
 
 			if (g_Options.show_demo_window)
@@ -1139,10 +1122,6 @@ void Menu::Render()
 
 
 			ImGui::PushFont(bestfont);
-
-			static int page = 0;
-			static int pina = 0;
-			ImGui::SelectTabs(&page, sidebar_tabs, ARRAYSIZE(sidebar_tabs));
 
 			ImGui::PopFont();
 
@@ -1159,7 +1138,6 @@ void Menu::Render()
 			// // 
 
 
-			static int subtab1;
 
 
 
@@ -1202,6 +1180,45 @@ void Menu::Render()
 			}
 			*/
 			ImGui::End();
+		}
+		int y, h;
+		g_EngineClient->GetScreenSize(y, h);
+		ImGui::SetNextWindowPos(ImVec2(3, 3));
+		ImGui::SetNextWindowSize(ImVec2(y - 6, 30));
+		if (_visible)
+		{
+			static const char* sidebar_tabs[] = {
+	ICON_FA_CROSSHAIRS " LegitBot" ,
+	ICON_FA_FROWN_O " RageBot",
+	ICON_FA_EYE  " Visuals",
+	ICON_FA_FOLDER_OPEN " Misc",
+	ICON_FA_PAINT_BRUSH " Skins"
+			};
+			if (ImGui::Begin(u8"fuck you", &_visible, ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoScrollWithMouse)) {
+				ImGui::PushFont(bestfont);
+				static float flRainbow;
+				float flSpeed = 0.0008f;
+
+				ImVec2 curPos = ImGui::GetCursorPos();
+				ImVec2 curWindowPos = ImGui::GetWindowPos();
+				curPos.x += curWindowPos.x;
+				curPos.y += curWindowPos.y;
+
+				int size;
+				int y;
+
+
+
+				g_EngineClient->GetScreenSize(y, size);
+
+
+				ImGui::SelectTabs(&page, sidebar_tabs, ARRAYSIZE(sidebar_tabs));
+				//RainbowMeme(curPos.x - 10, curPos.y + 32, ImGui::GetWindowSize().x + size, curPos.y + 34, flSpeed);
+				ImGui::PopFont();
+
+				ImGui::Spacing();
+				ImGui::End();
+			}
 		}
 	}
 
